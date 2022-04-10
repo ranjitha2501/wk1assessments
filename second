@@ -1,0 +1,38 @@
+package com.prodapt.assessments;
+import java.util.Scanner;
+
+public class SchoolRecords {
+	int schoolId;
+	String schoolName;
+	String schoolAddress;
+
+void addRecords() {
+	Scanner in= new Scanner(System.in);
+	schoolId=in.nextInt();
+	schoolName=new String();
+	schoolName=in.next();
+	schoolAddress=new String();
+    schoolAddress=in.next();
+	
+}
+void displayRecords() {
+    System.out.println("schoolId:"+schoolId);
+	System.out.println("schoolname:"+schoolName);
+	System.out.println("schoolAddress:"+schoolAddress);
+	
+			
+}
+
+}
+package com.prodapt.assessments;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SchoolRecords sr=new SchoolRecords();
+		sr.addRecords();
+		sr.displayRecords();
+	}
+
+}
