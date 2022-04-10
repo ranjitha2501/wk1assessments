@@ -1,0 +1,20 @@
+package com.prodapt.assessmentprgmone;
+
+public class SimpleInterest {
+	static double principle=190000;
+	static float interest=10.01f;
+	static int timeOfYrs=2;
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double si=principle*interest*timeOfYrs;
+		System.out.println("SimpleInterest"+si);
+		double totalAmount=principle+interest;
+		System.out.println("totalAmount:"+totalAmount);
+		
+
+	}
+
+}
